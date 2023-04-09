@@ -1,0 +1,35 @@
+
+.table {
+    max-width: 999px;
+    margin: 0 auto;
+}
+#tbCart {
+    margin: 0 auto;
+    width: 999px;
+    height: auto;
+}
+
+tr:first-child{
+    background-color: #9c9c9c;
+    line-height: 50px;
+    font-weight: 500;
+    border: none;
+    box-sizing: border-box;
+}
+/* tr:nth-child(2n+0){
+    background-color: #9c9c9c;
+} */
+tr td{
+   width: 150px;
+   /* border: 1px solid #000; */
+   text-align: center;
+}
+tr td:last-child{
+    width: 210;
+}
+
+
+
+.total-sl {
+    padding-left: 160px;
+}
