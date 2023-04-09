@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K&N SHOP</title>
+  <link rel="stylesheet" href="rest.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <!-- <link rel="manifest" href="/manifest.json"> -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cartMain.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <!-- <link href="form-validation.css" rel="stylesheet"> -->
+</head>
+
+<body class="bg-light">
+  <div id="wrapper">
+    <div class="header">
+      <div class="heder-left">
+        <ul>
+          <li><a href="">Hotline: 0966158666 (8h – 12h, 13h – 21h30)</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">Liên hệ hợp tác</a></li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <ul>
+          <li><a href="">Tìm cửa hàng</a></li>
+          <li><a href=""> |</a></li>
+          <li><a href="">Kiểm tra đơn hàng</a></li>
+          <li><a href="">|</a></li>
+          <li><a href="">Mua hàng tại Shopify</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="menu">
+      <nav class="container">
+        <a href="#!" id="logo">
+          <img src="/img/logo.jpg" alt="">
+        </a>
+        <ul id="main-menu">
+          <li><a href="cartmain.html" target="_blank"><strong>Trang chủ</strong></a></li>
+          <li><a href="nam.html"><strong>Nam</strong></a>
+            <ul class="sud-menu">
+              <li><a href="#!">Sandal</a></li>
+              <li><a href="#!">Giày Thể Thao </a></li>
+              <li><a href="#!">Giày chạy bộ</a>
+                <ul class="sud-menu">
+                  <li><a href="#!">Nike</a></li>
+                  <li><a href="#!">Adidas</a></li>
+                  <li><a href="#!">Bitis</a></li>
+                  <li><a href="#!">Puma</a></li>
+                </ul>
+              </li>
+              <li><a href="#!">Dép</a></li>
+            </ul>
+          </li>
+          <li><a href="nu.html"><strong>Nữ</strong></a>
+            <ul class="sud-menu">
+              <li><a href="#!">Hunter</a></li>
+              <li><a href="#!">Sandal</a></li>
+              <li><a href="#!">GOTO</a>
+                <ul class="sud-menu">
+                  <li><a href="#!">Giày cao gót</a></li>
+                  <li><a href="#!">Giày thời trang</a></li>
+                  <li><a href="#!">Sandal</a></li>
+                  <li><a href="#!">Dép</a></li>
+                  <li><a href="#!">Túi xách-ví</a></li>
+                </ul>
+              </li>
+              <li><a href="#!">Giày chạy bộ - đi bộ</a></li>
+            </ul>
+          </li>
+          <li><a href="#!"><strong>Trẻ em</strong></a>
+            <ul class="sud-menu">
+              <li><a href="#!">Bé trai</a>
+                <ul class="sud-menu">
+                  <li><a href="#!">Sandal</a></li>
+                  <li><a href="#!">Giày thể thao</a></li>
+                  <li><a href="#!">Dép</a></li>
+                  <li><a href="#!">Giày tập đi</a></li>
+                </ul>
+              </li>
+              <li><a href="#!">Bé gái</a>
+                <ul class="sud-menu">
+                  <li><a href="#!">Sandal</a></li>
+                  <li><a href="#!">Giày thể thao</a></li>
+                  <li><a href="#!">Giày búp bê</a></li>
+                  <li><a href="#!">Dép</a></li>
+                  <li><a href="#!">Giày tập đi</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </li>
+          <li><a href="#!"><strong>Thông Tin</strong></a></li>
+        </ul>
+        <ul id="input">
+          <li class="main-rapper"><a href="">Dăng Nhâp</a>
+            <div id="rapper">
+              <form action="" id="form-login">
+                <h1 class="form-heading">Đăng Nhập</h1>
+                <div class="form-group">
+                  <i class="far fa-user"></i>
+                  <input type="text" class="form-input" placeholder="Tên đăng nhập">
+                </div>
+                <div class="form-group">
+                  <i class="fas fa-key"></i>
+                  <input type="password" class="form-input" placeholder="Mật khẩu">
+                  <div id="eye">
+                    <i class="far fa-eye"></i>
+                  </div>
+                </div>
+                <input type="submit" value="Đăng nhập" class="form-submit">
+              </form>
+            </div>
+          </li>
+          <li><a href="">Đăng Ký</a></li>
+        </ul>
+        <div class="buy-cart">
+          <a href="" target="_blank" onclick="showCart();"> <img src="/img/icon/cart.png" alt=""></a>
+          <p class="cartNO">
+          <p>
+        </div>
+      </nav>
+
+    </div>
+
+  </div>
+  <!-- Cart-container -->
+
+  <div class="table">
+    <table id="tbCart">
+
+    </table>
+    <div class="tong" style="justify-content: space-between; display: inline-block;">
+      <h4>Tổng giá trị đơn hàng</h4>
+    </div>
+
+    <div id="total" style="color: #cd201f;"> </div>
+    <div class="" style="clear: both ;"></div>
+    <div class="pay-pal">
+
+
+    </div>
+
+    <div class="container">
+      <!-- <div class="py-5 text-center">
+            <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+            <h2>Checkout form</h2>
+            <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+          </div> -->
+
+      <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Hóa Đơn</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Số Lượng Sản Phẩm</h6>
+                <small class="text-muted">Brief description</small>
+                <span class="total-sl"></span>
+              </div>
+
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Second product</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Phí Vận Chuyển</h6>
+                <small class="text-muted">Giao Hàng Nhanh 2h</small>
+              </div>
+              <span class="text-muted">15.000đ</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Mã khuyến mại</h6>
+                <small>Nếu Có</small>
+              </div>
+              <span class="text-success">3%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Tổng Tiền (VNĐ)</span>
+              <strong id="totalll"></strong>
+            </li>
+          </ul>
+
+          <form class="card p-2">
+            <div class="input-group">
+
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary" onclick="paypal()"
+                  style="background-color: #00c300; width: 300px;">Đặt Hàng</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Nhập Thông Tin Giao Hàng</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Họ<span class="text-muted">(Bắt Buộc)</span></label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Tên<span class="text-muted">(Bắt Buộc)</span></label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">Tên Gợi Nhớ</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">Email <span class="text-muted">(Bắt Buộc)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="ht24430@gmail.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Địa Chỉ</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address2">Địa Chỉ Dự Phòng <span class="text-muted">(Không Bắt Buộc)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Thành Phố</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>TP-Hồ Chí Minh</option>
+                  <option>Hà Nội</option>
+                  <option>Đà Nẵng</option>
+                  <option>Cần Thơ</option>
+                  <option>Tiền Giang</option>
+                  <option>Long AN</option>
+                  <option>Sa Déc</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state">State</label>
+                <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Choose...</option>
+                  <option value="">Quận 1</option>
+                  <option value="">Quận 2</option>
+                  <option value="">Quận 3</option>
+                  <option value="">Quận 4</option>
+                  <option value="">Quận 5</option>
+                  <option value="">Quận 6</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+              <label class="custom-control-label" for="same-address">Địa chỉ giao hàng giống với địa chỉ thanh toán
+                của tôi</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">
+                Lưu thông tin này cho lần sau</label>
+            </div>
+            <hr class="mb-4">
+
+            <h4 class="mb-3">Payment</h4>
+
+            <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                <label class="custom-control-label" for="credit">Credit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="debit">Debit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="paypal">PayPal</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-muted">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-number">Credit card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-cvv">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Lưu Thông Tin Giao Hàng</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017-2019 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+      crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/4.3/examples/checkout/form-validation.js"></script>
+  </div>
+
+
+
+  </div>
+  <div class="clear" style="clear: both;">
+    <br>
+    <hr>
+    <br>
+  </div>
+  <div class="heaher-bottom">
+    <ul class="box1">
+      <li>
+        <div class="item">
+          <h3>Về Bitis</h3>
+        </div>
+        <a href="#!">Về Bitis</a>
+        <a href="#!">Câu chuyện Bitis</a>
+        <a href="#!">Bước phát triển</a>
+        <a href="#!">Hoạt động</a>
+        <a href="#!">Liên hệ</a>
+      </li>
+    </ul>
+    <ul class="box1">
+      <li>
+        <div class="item">
+          <h3>Thông tin</h3>
+        </div>
+        <a href="#!">Trạng thái đơn hàng</a>
+        <a href="#!">Hình thức giao hàng</a>
+        <a href="#!">Hình thức thanh toán</a>
+        <a href="#!">Chính sách đổi trả</a>
+        <a href="#!">Chính sách bảo hành</a>
+        <a href="#!">Chính sách khách hàng cần thiết</a>
+      </li>
+    </ul>
+    <ul class="box1">
+      <li>
+        <div class="item">
+          <h3>Trợ giúp</h3>
+        </div>
+        <a href="#!">Tuyển dụng</a>
+        <a href="#!">Hệ thống cửa hàng</a>
+        <a href="#!">Liên hệ hợp tác</a>
+        <a href="#!">Q&C</a>
+      </li>
+    </ul>
+    <ul class="box1">
+      <li>
+        <div class="item">
+          <img src="/img/logo.jpg" alt="">
+        </div>
+        <p>CÔNG TY TNHH SẢN XUẤT HÀNG TIÊU DÙNG BÌNH TIÊN
+          Địa chỉ: 22 Lý Chiêu Hoàng, Phường 10, Quận 6, TP. Hồ Chí Minh
+          Điện thoại: (028) 38 753 443 <br>
+          Email:Liên hệ các vấn đề về đơn hàng Online, kênh cửa hàng, đại lý (offline) :
+          chamsockhachhang@bitis.com.vn
+          Hotline 19002126 từ ngày 28/02/2023 chuyển sang hotline 0966158666 <br>
+          Hotline: 0966158666 ( cước phí: 3.000đ/phút )
+          Thời gian tư vấn: 8h – 12h, 13h – 21h30 các ngày trong tuần (trừ ngày Lễ, Tết)</p>
+      </li>
+    </ul>
+
+  </div>
+  <div class="clear" style="clear: both;"></div>
+  <div class="footter">
+    <ul>
+      <li><a href="#!">Điều khoảng</a></li>
+      <li><a href="#!">Chính sách bảo mật</a></li>
+      <li>
+        Copyright © 2023 Biti's.
+      </li>
+      <li><a href="#!">Hướng dẫn sử dụng</a></li>
+
+    </ul>
+
+    <div class="map">
+      <div class="bcp"><img src="/img/bcp.jpg" alt=""></div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31359.34921362619!2d106.59921115798294!3d10.740752947634515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752dd2e71add87%3A0x3c457f0e5979de18!2sBiti&#39;s!5e0!3m2!1svi!2s!4v1677131539257!5m2!1svi!2s"
+        width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+  <!-- <script src="https://uhchat.net/code.php?f=1ddbff"></script> -->
+  <script src="./js/cartShop.js"></script>
+</body>
+
+</html>
